@@ -12,7 +12,10 @@ import pandas as pd
 import requests
 import streamlit as st
 
-API_BASE = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
+_raw_api_base = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
+if not _raw_api_base.startswith("http"):
+    _raw_api_base = "https://" + _raw_api_base
+API_BASE = _raw_api_base.rstrip("/")
 TIMEOUT_SECONDS = 30
 
 AGENT_ICONS = {
