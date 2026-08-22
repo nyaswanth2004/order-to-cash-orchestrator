@@ -1,0 +1,44 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST-001",
+      "name": "Acme Manufacturing",
+      "segment": "returning",
+      "years_active": 7,
+      "late_payments_12m": 0,
+      "lifetime_value_usd": 482000.0
+    },
+    {
+      "customer_id": "CUST-002",
+      "name": "Brightline Retail Group",
+      "segment": "new",
+      "years_active": 0,
+      "late_payments_12m": 0,
+      "lifetime_value_usd": 0.0
+    },
+    {
+      "customer_id": "CUST-003",
+      "name": "Cortex Labs",
+      "segment": "returning",
+      "years_active": 3,
+      "late_payments_12m": 3,
+      "lifetime_value_usd": 91500.0
+    },
+    {
+      "customer_id": "CUST-004",
+      "name": "Delta Foods",
+      "segment": "returning",
+      "years_active": 5,
+      "late_payments_12m": 0,
+      "lifetime_value_usd": 210000.0
+    },
+    {
+      "customer_id": "CUST-005",
+      "name": "Everest Construction",
+      "segment": "returning",
+      "years_active": 2,
+      "late_payments_12m": 1,
+      "lifetime_value_usd": 64000.0
+    }
+  ]
+}

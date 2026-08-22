@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+server.log
+server.err
+streamlit.log
+streamlit.err
+data/storage/
+generated_invoices/

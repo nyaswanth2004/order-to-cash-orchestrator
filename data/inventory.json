@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "sku": "SKU-1001",
+      "name": "Industrial Drone X200",
+      "unit_price_usd": 4500.0,
+      "stock_quantity": 50
+    },
+    {
+      "sku": "SKU-1002",
+      "name": "Robotic Arm RA-7",
+      "unit_price_usd": 12000.0,
+      "stock_quantity": 25
+    },
+    {
+      "sku": "SKU-1003",
+      "name": "Conveyor Belt Module",
+      "unit_price_usd": 1800.0,
+      "stock_quantity": 120
+    },
+    {
+      "sku": "SKU-1004",
+      "name": "Vision Sensor Pro",
+      "unit_price_usd": 750.0,
+      "stock_quantity": 400
+    },
+    {
+      "sku": "SKU-1005",
+      "name": "AGV Chassis",
+      "unit_price_usd": 9500.0,
+      "stock_quantity": 10
+    }
+  ]
+}
